@@ -1,0 +1,132 @@
+body {
+  font-size: 24px;
+  line-height: 30px;
+}
+
+#wrapper {
+  width: 100%;
+}
+
+.container {
+  max-width: 1240px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+  background: #ccc;
+  overflow: hidden;
+}
+
+.block::after {
+  display: block;
+  clear: both;
+  content: '';
+}
+
+.block {
+  background: green;
+  margin: 15px;
+}
+
+.logo {
+  float: left;
+}
+
+.logo img {
+  width: 200px;
+  height: 150px;
+}
+
+img {
+  margin: 10px 0;
+  padding: 0 10px;
+}
+
+.en_ru {
+  float: right;
+  padding: 10px 0;
+  margin: 35px 0;
+}
+
+.en_ru p {
+  float: left;
+  padding: 0 10px;
+}
+
+.car {
+  float: left;
+}
+
+.car img {
+  width: 200px;
+  height: 150px;
+}
+
+.about {
+  float: right;
+  margin: 60px 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.about li {
+  float: left;
+  padding: 0 10px;
+  font-size: 35px;
+  color: blue;
+}
+
+.card_1 {
+  float: left;
+  margin: 10px;
+}
+
+.card_1 li {
+  float: left;
+  padding: 0 10px;
+}
+
+.card_2 {
+  float: right;
+  margin: 10px;
+}
+
+.card_2 li {
+  float: left;
+  padding: 0 10px;
+}
+
+.avatar {
+  margin: 0 auto;
+  background: #cdd;
+  width: 40%;
+}
+
+.avatar:after {
+  display: block;
+  clear: both;
+  content: '';
+}
+
+.avatar__image {
+  float: left;
+  width: 250px;
+  height: 250px;
+  float: left;
+}
+
+
+.txt {
+  float: right;
+  margin: 10px 5px 10px 20px;
+  max-width: 190px;
+}
+
+.card-2 {
+  float: right;
+  background: #cdd;
+}
+
