@@ -25,6 +25,7 @@ body {
 .block {
   background: green;
   margin: 15px;
+  overflow: hidden;
 }
 
 .logo {
@@ -102,7 +103,7 @@ ul {
 .avatar {
   margin: 0 auto;
   background: #cdd;
-  width: 40%;
+  width: 500px;
 }
 
 .avatar:after {
@@ -110,6 +111,11 @@ ul {
   clear: both;
   content: '';
 }
+
+.card {
+  float: left;
+}
+
 
 .avatar__image {
   float: left;
@@ -125,8 +131,15 @@ ul {
   max-width: 190px;
 }
 
-.card-2 {
+.avatar-2 {
   float: right;
+  margin: 0 auto;
+  width: 500px;
   background: #cdd;
+}
+
+.card-2 {
+  float: left;
+  /*background: #cdd;*/
 }
 
